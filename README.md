@@ -1,20 +1,20 @@
-# 🔐 Cybersecurity Incident Response Assistant
+#  Cybersecurity Incident Response Assistant
 
 An AI-powered assistant that helps users quickly and effectively respond to cybersecurity incidents like phishing attacks, credential leaks, and device loss. Built using Google FLAN-T5, Gradio, and a simple intent-entity matching system, this tool provides step-by-step action protocols based on the type of incident described.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔎 Detects incident intent (e.g., phishing, credential leak) from user input.
-- 🤖 Uses FLAN-T5 to generate context-aware response plans.
-- 📋 Templates for multiple cybersecurity incidents.
-- 🧠 Easily extensible with more incidents and response types.
-- 💡 User-friendly interface via [Gradio](https://gradio.app).
+-  Detects incident intent (e.g., phishing, credential leak) from user input.
+-  Uses FLAN-T5 to generate context-aware response plans.
+-  Templates for multiple cybersecurity incidents.
+-  Easily extensible with more incidents and response types.
+-  User-friendly interface via [Gradio](https://gradio.app).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ├── incidents.json # Knowledge base of incident types and examples
 ├── app.ipynb      # Main Colab notebook with UI and logic
@@ -32,7 +32,7 @@ An AI-powered assistant that helps users quickly and effectively respond to cybe
 
 ---
 
-## 💻 Try It Out
+##  Try It Out
 
 If running locally (optional), install the dependencies:
 
